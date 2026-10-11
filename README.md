@@ -1,15 +1,15 @@
-## Istilah Monotonically Increasing Subsequence
+### Istilah Monotonically Increasing Subsequence
  Kondisi dimana niai setiap elemen berikutnya selalu lebih besar dari elemen sebelumnya dalam subsequence
 <br>
 
-## Contoh Monotically increasing subsequence
+### Contoh Monotically increasing subsequence
 
 <br>
 
 <img width="1888" height="804" alt="image" src="https://github.com/user-attachments/assets/9bbc1760-d561-4ea0-9f9f-f0c09791fa81" />
 Aplikasi tree untuk mencari largest monotonically increaing subsequence dari urutan bilang : 4, 1, 13, 7, 0, 2, 8, 11, 3
 
-## Penjelasan Algoritma
+### Penjelasan Algoritma
 
 <br>
 
@@ -26,7 +26,7 @@ append x dan panjang increasing subsequence tambah satu
 ## 2. Tails[i-1] < x <= tails[i] 
 update tails[i] = x
 <br>
-## Backtracking untuk mendapatkan Jalur increasing subsequence nya
+### Backtracking untuk mendapatkan Jalur increasing subsequence nya
 <br>
 Untuk mengambil isi jalurnya bisa menggunakan BackTracking (tails cuman mencatat panjang maksimum)
 
